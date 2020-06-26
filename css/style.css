@@ -1,1 +1,96 @@
 
+.container{
+    background-color: maroon;
+    width: 300px;
+    height: 404px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+#text-area{
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: right;
+    background-color: white;
+    font-size: large;
+}
+
+.btn{
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: x-large;
+}
+
+.big{
+    width: 135px;
+    background-color: white;
+    height: 40px;
+    font-size: large;
+}
+
+.indv-container{
+    background-color: cadetblue;
+}
+
+
+.btn:hover{
+    background-color: darkgrey;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    background-color: rgb(102, 0, 0);
+}
+
+.themeButtons{
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.themeButtonsCont{
+    margin: 20px;
+    text-align: center;
+}
+
+.themeButtons:focus{
+    outline: none;
+}
+
+
+#normalTheme:hover{
+    background-color: LightSteelBlue
+}
+
+#darkTheme:hover{
+    background-color: navy;
+    color: white;
+}
+
+#haloweenTheme:hover{
+    background-color: orangered;
+
+}
